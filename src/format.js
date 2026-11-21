@@ -47,11 +47,6 @@ export function timelineOf(women) {
     .sort((first, second) => first.date.localeCompare(second.date) || first.woman.name.localeCompare(second.woman.name, 'fr'));
 }
 
-/** Link to search a name in Gallica, the BnF digital library. */
-export function gallicaSearchUrl(name) {
-  const query = `gallica all "${name}"`;
-  return `https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=${encodeURIComponent(`(${query})`)}`;
-}
 
 /**
  * Dates in order, comparing only what both dates say:

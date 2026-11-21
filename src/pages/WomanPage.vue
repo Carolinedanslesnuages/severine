@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue';
 import { women, periodLabel, regionLabel, themeLabel } from '../data.js';
-import { formatDate, gallicaSearchUrl, lifespan } from '../format.js';
+import { formatDate, lifespan } from '../format.js';
 
 const props = defineProps({ woman: { type: Object, required: true } });
 
@@ -35,9 +35,6 @@ const sourceText = (source) => [source.author, source.title, source.publisher, s
       <template v-else>{{ sourceText(source) }}</template>
     </li>
   </ul>
-  <p>
-    <a :href="gallicaSearchUrl(woman.name)">Chercher « {{ woman.name }} » dans Gallica, la bibliothèque numérique de la BnF</a>
-  </p>
 
   <nav class="pager" aria-label="Femme précédente et suivante">
     <a v-if="previousWoman" :href="`#/femme/${previousWoman.slug}`" rel="prev">Précédente : {{ previousWoman.name }}</a>

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { formatDate, normalize, matchesQuery, timelineOf, gallicaSearchUrl, isChronological, lifespan, eraOf } from '../src/format.js';
+import { formatDate, normalize, matchesQuery, timelineOf, isChronological, lifespan, eraOf } from '../src/format.js';
 
 test('formatDate écrit les dates en français', () => {
   assert.equal(formatDate('1793-07-13'), '13 juillet 1793');
@@ -29,9 +29,6 @@ test('timelineOf trie toutes les actions par date', () => {
   assert.deepEqual(timeline.map((action) => action.woman.name), ['Olympe de Gouges', 'Louise Michel']);
 });
 
-test('gallicaSearchUrl encode le nom', () => {
-  assert.match(gallicaSearchUrl('André Léo'), /^https:\/\/gallica\.bnf\.fr\/.*Andr%C3%A9%20L%C3%A9o/);
-});
 
 test('isChronological compare seulement la précision commune', () => {
   assert.ok(isChronological(['1792', '1793-06', '1793', '1793-11-08']));
