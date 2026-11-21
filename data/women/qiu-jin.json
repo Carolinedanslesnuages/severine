@@ -1,0 +1,32 @@
+{
+  "name": "Qiu Jin",
+  "birth": "1875",
+  "death": "1907",
+  "periods": [
+    "chine"
+  ],
+  "summary": "Poétesse et féministe. Elle prépare un soulèvement contre la dynastie Qing.",
+  "actions": [
+    {
+      "date": "1904",
+      "theme": "organiser",
+      "text": "Elle quitte son mari et part étudier au Japon, où elle rejoint les révolutionnaires chinois."
+    },
+    {
+      "date": "1907",
+      "theme": "armes",
+      "text": "Directrice d'une école à Shaoxing, elle prépare une insurrection avec Xu Xilin."
+    },
+    {
+      "date": "1907-07-15",
+      "theme": "repression",
+      "text": "Arrêtée, elle est décapitée."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dragon Boat Festival (Britannica)",
+      "url": "https://www.britannica.com/topic/Dragon-Boat-Festival"
+    }
+  ]
+}

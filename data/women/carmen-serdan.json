@@ -1,0 +1,37 @@
+{
+  "name": "Carmen Serdán",
+  "birth": "1875",
+  "death": "1948",
+  "periods": [
+    "mexique"
+  ],
+  "summary": "Conspiratrice de Puebla. Le combat de sa maison annonce la Révolution mexicaine.",
+  "actions": [
+    {
+      "date": "1910",
+      "theme": "organiser",
+      "text": "Avec ses frères, elle prépare le soulèvement de Puebla contre Porfirio Díaz."
+    },
+    {
+      "date": "1910-11-18",
+      "theme": "armes",
+      "text": "L'armée attaque la maison familiale. Fusil en main, elle dirige la défense depuis le balcon. Blessée, elle est emprisonnée."
+    },
+    {
+      "date": "1911-05",
+      "theme": "repression",
+      "text": "Elle est libérée après la victoire de Madero."
+    },
+    {
+      "date": "1914",
+      "theme": "organiser",
+      "text": "Elle rejoint le mouvement de Venustiano Carranza."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Carmen Serdán : ¡La libertad vale más que la vida! (Memórica, Gouvernement du Mexique)",
+      "url": "https://memoricamexico.gob.mx/es/memorica/carmen_serdan"
+    }
+  ]
+}

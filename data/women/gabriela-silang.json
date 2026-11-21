@@ -1,0 +1,32 @@
+{
+  "name": "Gabriela Silang",
+  "birth": "1731",
+  "death": "1763",
+  "periods": [
+    "ilocos"
+  ],
+  "summary": "Elle reprend la révolte d'Ilocos contre les Espagnols après l'assassinat de son mari. On l'appelle « la Generala ».",
+  "actions": [
+    {
+      "date": "1763-05",
+      "theme": "armes",
+      "text": "Son mari, Diego Silang, est assassiné à Vigan. Elle s'enfuit en Abra et rassemble ses troupes."
+    },
+    {
+      "date": "1763-09",
+      "theme": "armes",
+      "text": "Elle attaque Vigan, sans succès. Elle est capturée avec ses compagnons."
+    },
+    {
+      "date": "1763-09-20",
+      "theme": "repression",
+      "text": "Elle est pendue sur la place de Vigan."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Silang, Gabriela (1731–1763), Women in World History (Encyclopedia.com)",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/silang-gabriela-1731-1763"
+    }
+  ]
+}

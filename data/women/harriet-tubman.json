@@ -1,0 +1,36 @@
+{
+  "name": "Harriet Tubman",
+  "birth": "vers 1822",
+  "death": "1913",
+  "periods": [
+    "abolition"
+  ],
+  "summary": "Née esclave, elle s'évade et guide d'autres esclaves vers la liberté, puis mène un raid armé pendant la guerre de Sécession.",
+  "actions": [
+    {
+      "date": "1849",
+      "theme": "armes",
+      "text": "Elle s'évade du Maryland."
+    },
+    {
+      "date": "1850",
+      "theme": "organiser",
+      "text": "Elle revient plusieurs fois dans le Sud pour guider des familles vers le Nord par le « chemin de fer clandestin »."
+    },
+    {
+      "date": "1863-06-02",
+      "theme": "armes",
+      "text": "Elle conduit le raid de la rivière Combahee avec des soldats noirs : plus de 700 personnes sont libérées."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Harriet Tubman (National Park Service)",
+      "url": "https://www.nps.gov/people/harriet-tubman.htm"
+    },
+    {
+      "title": "Combahee River Ferry & Harriet Tubman Bridge (National Park Service)",
+      "url": "https://nps.gov/places/combahee-river-ferry-harriet-tubman-bridge.htm"
+    }
+  ]
+}

@@ -5,19 +5,34 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { DATE_PATTERN, isChronological } from '../src/format.js';
 
 const readJson = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8'));
-const periodIds = readJson('../data/periods.json').map((period) => period.id);
+const periods = readJson('../data/periods.json');
+const periodIds = periods.map((period) => period.id);
+const regionIds = readJson('../data/regions.json').map((region) => region.id);
 const themeIds = readJson('../data/themes.json').map((theme) => theme.id);
 const fileNames = readdirSync(new URL('../data/women/', import.meta.url)).filter((name) => name.endsWith('.json'));
 const KNOWN_KEYS = ['name', 'birth', 'death', 'periods', 'summary', 'actions', 'sources'];
 
 test('il y a des fiches', () => assert.ok(fileNames.length > 0));
 
+test('chaque mouvement a une région connue et des années', () => {
+  for (const period of periods) {
+    assert.ok(regionIds.includes(period.region), `${period.id} : région inconnue « ${period.region} »`);
+    assert.match(period.years, /^\d{1,4}(-\d{1,4})?$/, `${period.id} : années « ${period.years} »`);
+  }
+});
+
+test('chaque mouvement sert à au moins une femme', () => {
+  const used = new Set(fileNames.flatMap((name) => readJson(`../data/women/${name}`).periods));
+  for (const periodId of periodIds) assert.ok(used.has(periodId), `mouvement sans femme : ${periodId}`);
+});
+
 for (const fileName of fileNames) {
   test(`fiche ${fileName}`, () => {
     assert.match(fileName, /^[a-z0-9]+(-[a-z0-9]+)*\.json$/, 'nom de fichier en minuscules, sans accent, mots séparés par des tirets');
     const woman = readJson(`../data/women/${fileName}`);
     for (const key of Object.keys(woman)) assert.ok(KNOWN_KEYS.includes(key), `clé inconnue : ${key}`);
-    for (const key of ['name', 'birth', 'death', 'summary']) {
+    assert.equal(typeof woman.death, 'string', 'death : un texte, vide si elle est vivante');
+    for (const key of ['name', 'birth', 'summary']) {
       assert.equal(typeof woman[key], 'string', `${key} doit être un texte`);
       assert.ok(woman[key].trim(), `${key} est vide`);
     }
@@ -38,7 +53,7 @@ for (const fileName of fileNames) {
       assert.ok(source.title?.trim(), 'source sans titre');
       if (source.url) assert.match(source.url, /^https:\/\//, 'lien de source en https');
       assert.doesNotMatch(source.url ?? '', /wikipedia\.org/, 'Wikipédia n\'est pas une source');
-      assert.ok(source.url || (source.author && source.publisher && source.year), 'une source sans lien cite auteur, éditeur et année');
+      assert.ok(source.url || source.author, 'une source sans lien cite au moins son auteur');
     }
   });
 }

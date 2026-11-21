@@ -1,16 +1,19 @@
 <script setup>
 import { computed, ref } from 'vue';
-import { women, themes, themeLabel } from '../data.js';
-import { formatDate, timelineOf } from '../format.js';
+import ChoiceGroup from '../components/ChoiceGroup.vue';
+import { women, themes, regions, themeLabel } from '../data.js';
+import { formatDate, formatYear, timelineOf } from '../format.js';
 
 const selectedTheme = ref('');
+const selectedRegion = ref('');
 
 /** Actions grouped by year, oldest first. */
 const years = computed(() => {
   const groups = new Map();
   for (const action of timelineOf(women)) {
     if (selectedTheme.value && action.theme !== selectedTheme.value) continue;
-    const year = action.date.slice(0, 4);
+    if (selectedRegion.value && !action.woman.regions.includes(selectedRegion.value)) continue;
+    const year = formatYear(action.date.slice(0, 4));
     if (!groups.has(year)) groups.set(year, []);
     groups.get(year).push(action);
   }
@@ -25,25 +28,14 @@ const actionCount = computed(() => years.value.reduce((total, group) => total + 
   <p class="lead">Toutes leurs actions, de la plus ancienne à la plus récente.</p>
 
   <form class="filters" @submit.prevent>
-    <fieldset>
-      <legend>Type d'action</legend>
-      <div class="choices">
-        <label class="choice">
-          <input v-model="selectedTheme" type="radio" name="theme" value="">
-          <span>Toutes</span>
-        </label>
-        <label v-for="theme in themes" :key="theme.id" class="choice">
-          <input v-model="selectedTheme" type="radio" name="theme" :value="theme.id">
-          <span>{{ theme.label }}</span>
-        </label>
-      </div>
-    </fieldset>
+    <ChoiceGroup v-model="selectedTheme" legend="Type d'action" name="theme" :options="themes" />
+    <ChoiceGroup v-model="selectedRegion" legend="Région" name="region" :options="regions" />
   </form>
 
   <p class="count" role="status">{{ actionCount }} action{{ actionCount > 1 ? 's' : '' }}</p>
 
-  <section v-for="group in years" :key="group.year" class="year" :aria-labelledby="`annee-${group.year}`">
-    <h2 :id="`annee-${group.year}`">{{ group.year }}</h2>
+  <section v-for="(group, index) in years" :key="group.year" class="year" :aria-labelledby="`annee-${index}`">
+    <h2 :id="`annee-${index}`">{{ group.year }}</h2>
     <ol class="actions">
       <li v-for="action in group.actions" :key="action.woman.slug + action.date + action.text">
         <p class="action-date"><time :datetime="action.date">{{ formatDate(action.date) }}</time></p>

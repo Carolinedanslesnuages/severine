@@ -1,0 +1,36 @@
+{
+  "name": "Micaela Bastidas",
+  "birth": "vers 1745",
+  "death": "1781",
+  "periods": [
+    "andes"
+  ],
+  "summary": "Stratège de la grande rébellion de Túpac Amaru II contre l'administration coloniale espagnole au Pérou.",
+  "actions": [
+    {
+      "date": "1780-11",
+      "theme": "organiser",
+      "text": "Elle organise la rébellion avec son mari : ravitaillement, troupes, correspondance, depuis Tungasuca."
+    },
+    {
+      "date": "1781-03",
+      "theme": "repression",
+      "text": "Elle est capturée avec sa famille."
+    },
+    {
+      "date": "1781-05-18",
+      "theme": "repression",
+      "text": "Elle est exécutée sur la place d'Armes de Cuzco, avec son mari et son fils."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Túpac Amaru II (Britannica)",
+      "url": "https://www.britannica.com/biography/Tupac-Amaru-II"
+    },
+    {
+      "title": "Bastidas, Micaela (1745–1781), Women in World History (Encyclopedia.com)",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/bastidas-micaela-1745-1781"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Yu Gwan-sun",
+  "birth": "1902",
+  "death": "1920",
+  "periods": [
+    "coree"
+  ],
+  "summary": "Lycéenne, figure du mouvement du 1er Mars pour l'indépendance de la Corée face au Japon.",
+  "actions": [
+    {
+      "date": "1919",
+      "theme": "droits",
+      "text": "Elle organise des manifestations pour l'indépendance. Arrêtée, elle est condamnée à trois ans de prison."
+    },
+    {
+      "date": "1920-03-01",
+      "theme": "droits",
+      "text": "En prison, pour l'anniversaire du mouvement, elle entraîne les détenues à crier « Vive l'indépendance de la Corée »."
+    },
+    {
+      "date": "1920-09-28",
+      "theme": "repression",
+      "text": "Torturée, elle meurt à la prison de Seodaemun."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Film chronicles sacrifice of pro-independence heroine Yu Gwan-sun (Korea.net)",
+      "url": "https://www.korea.net/NewsFocus/Culture/view?articleId=168567"
+    },
+    {
+      "title": "March First Movement (Britannica)",
+      "url": "https://www.britannica.com/event/March-First-Movement"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Kahina",
+  "birth": "inconnue",
+  "death": "vers 698",
+  "periods": [
+    "kahina"
+  ],
+  "summary": "Cheffe berbère de l'Aurès. Elle résiste plusieurs années à la conquête arabe de l'Afrique du Nord.",
+  "actions": [
+    {
+      "date": "0693",
+      "theme": "armes",
+      "text": "Elle commande les Berbères de l'Aurès face à l'armée de Hassan ibn al-Nu'man, venue d'Égypte, et la repousse."
+    },
+    {
+      "date": "0698",
+      "theme": "repression",
+      "text": "Elle est vaincue et tuée. Les Arabes prennent ensuite Carthage."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kāhinah (Britannica)",
+      "url": "https://www.britannica.com/biography/Kahinah"
+    },
+    {
+      "title": "North Africa, from the Arab conquest to 1830 (Britannica)",
+      "url": "https://www.britannica.com/place/North-Africa/From-the-Arab-conquest-to-1830"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Nanny des Marrons",
+  "birth": "inconnue",
+  "death": "années 1750",
+  "periods": [
+    "marrons"
+  ],
+  "summary": "Cheffe des Marrons du Vent, en Jamaïque : des esclaves évadés qui tiennent tête aux Britanniques.",
+  "actions": [
+    {
+      "date": "1725",
+      "theme": "organiser",
+      "text": "Elle devient la cheffe religieuse, militaire et culturelle des Marrons du Vent."
+    },
+    {
+      "date": "1730",
+      "theme": "armes",
+      "text": "Pendant quatre ans, l'armée britannique la poursuit sans la capturer. Sa ville, Nanny Town, est détruite."
+    },
+    {
+      "date": "1740",
+      "theme": "droits",
+      "text": "Les Marrons du Vent obtiennent des terres. Elle fonde New Nanny Town."
+    },
+    {
+      "date": "1976",
+      "theme": "ecrire",
+      "text": "La Jamaïque la proclame héroïne nationale."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Maroon community: the Jamaican rebellions (Britannica)",
+      "url": "https://www.britannica.com/topic/maroon-community/The-Jamaican-rebellions"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Haydée Santamaría",
+  "birth": "1922",
+  "death": "1980",
+  "periods": [
+    "cuba"
+  ],
+  "summary": "Une des deux femmes de l'attaque de la caserne Moncada, fondatrice de la Casa de las Américas.",
+  "actions": [
+    {
+      "date": "1953-07-26",
+      "theme": "armes",
+      "text": "Elle participe à l'attaque de la caserne Moncada, à Santiago de Cuba, depuis l'hôpital voisin."
+    },
+    {
+      "date": "1953",
+      "theme": "repression",
+      "text": "Arrêtée, elle passe six mois en prison."
+    },
+    {
+      "date": "1959",
+      "theme": "ecrire",
+      "text": "Elle fonde la Casa de las Américas, maison de la culture latino-américaine, qu'elle dirige jusqu'en 1980."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Haydée Santamaría remembered in Cuba (Radio Habana Cuba)",
+      "url": "https://www.radiohc.cu/en/noticias/nacionales/229839-haydee-santamaria--remembered-in-cuba"
+    },
+    {
+      "title": "Haydée habla del Moncada (Ocean Sur)",
+      "url": "https://www.oceansur.com/catalogo/titulos/haydee-habla-del-moncada"
+    }
+  ]
+}

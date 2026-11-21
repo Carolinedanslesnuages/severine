@@ -1,0 +1,38 @@
+{
+  "name": "Nguyễn Thị Định",
+  "birth": "1920",
+  "death": "1992",
+  "periods": [
+    "vietnam"
+  ],
+  "summary": "Elle dirige le soulèvement de Bến Tre, puis devient la première femme générale de l'armée vietnamienne.",
+  "actions": [
+    {
+      "date": "1960-01",
+      "theme": "armes",
+      "text": "Elle dirige le soulèvement de la province de Bến Tre contre le régime de Ngô Đình Diệm."
+    },
+    {
+      "date": "1965",
+      "theme": "armes",
+      "text": "Elle devient commandante adjointe des forces armées de libération du Sud."
+    },
+    {
+      "date": "1974",
+      "theme": "droits",
+      "text": "Elle est la première femme nommée générale."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nguyen Thi Dinh (1920–1992), Women in World History (Encyclopedia.com)",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/nguyen-thi-dinh-1920-1992"
+    },
+    {
+      "author": "Nguyễn Thị Định",
+      "title": "No Other Road to Take: Memoirs of Mrs. Nguyen Thi Dinh",
+      "publisher": "Cornell University Southeast Asia Program",
+      "year": 1976
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Bartolina Sisa",
+  "birth": "vers 1750",
+  "death": "1782",
+  "periods": [
+    "andes"
+  ],
+  "summary": "Commandante aymara. Avec Túpac Katari, elle assiège La Paz pendant des mois.",
+  "actions": [
+    {
+      "date": "1781-03-13",
+      "theme": "armes",
+      "text": "Elle lance avec son mari le siège de La Paz et commande des camps de combattants."
+    },
+    {
+      "date": "1781",
+      "theme": "repression",
+      "text": "Elle est capturée par les Espagnols."
+    },
+    {
+      "date": "1782-09-05",
+      "theme": "repression",
+      "text": "Elle est exécutée à La Paz. Le 5 septembre est devenu la Journée internationale des femmes autochtones."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Why is September 5th International Day of Indigenous Women? (Agencia Presentes)",
+      "url": "https://agenciapresentes.org/en/2023/09/05/dia-internacional-de-la-mujer-indigena-la-historia-de-bartolina-sisa"
+    }
+  ]
+}

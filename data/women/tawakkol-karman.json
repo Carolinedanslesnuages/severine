@@ -1,0 +1,37 @@
+{
+  "name": "Tawakkol Karman",
+  "birth": "1979",
+  "death": "",
+  "periods": [
+    "printemps-arabes"
+  ],
+  "summary": "Journaliste yéménite, « mère de la révolution ». Première femme arabe prix Nobel de la paix.",
+  "actions": [
+    {
+      "date": "2005",
+      "theme": "organiser",
+      "text": "Elle cofonde Femmes journalistes sans chaînes."
+    },
+    {
+      "date": "2011-01",
+      "theme": "repression",
+      "text": "Elle est arrêtée pendant les manifestations, puis relâchée le lendemain."
+    },
+    {
+      "date": "2011",
+      "theme": "droits",
+      "text": "Elle dirige les manifestations qui mènent au départ du président Ali Abdallah Saleh."
+    },
+    {
+      "date": "2011-10-07",
+      "theme": "droits",
+      "text": "Elle reçoit le prix Nobel de la paix."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tawakkol Karman, facts (NobelPrize.org)",
+      "url": "https://www.nobelprize.org/prizes/peace/2011/karman/facts/"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Juana Azurduy",
+  "birth": "1780",
+  "death": "1862",
+  "periods": [
+    "independances"
+  ],
+  "summary": "Cheffe de guérilla dans le Haut-Pérou, l'actuelle Bolivie, pendant les guerres d'indépendance.",
+  "actions": [
+    {
+      "date": "1809",
+      "theme": "armes",
+      "text": "Avec son mari, Manuel Ascencio Padilla, elle rejoint la lutte pour l'indépendance et lève des troupes."
+    },
+    {
+      "date": "1816",
+      "theme": "armes",
+      "text": "Elle est nommée lieutenante-colonelle. Après la mort de son mari, elle commande seule la guérilla."
+    },
+    {
+      "date": "1825",
+      "theme": "droits",
+      "text": "Bolívar lui accorde une pension et le grade de colonelle."
+    },
+    {
+      "date": "1862-05-25",
+      "theme": "repression",
+      "text": "Elle meurt dans la misère."
+    },
+    {
+      "date": "2009",
+      "theme": "ecrire",
+      "text": "L'Argentine la nomme générale à titre posthume."
+    }
+  ],
+  "sources": [
+    {
+      "title": "¿Quién fue Juana Azurduy? (Gouvernement argentin)",
+      "url": "https://www.argentina.gob.ar/noticias/quien-fue-juana-azurduy"
+    },
+    {
+      "title": "Juana Azurduy : de la mujer histórica al mito popular (Centro Virtual Cervantes)",
+      "url": "https://cvc.cervantes.es/literatura/mujer_independencias/bados01.htm"
+    }
+  ]
+}
