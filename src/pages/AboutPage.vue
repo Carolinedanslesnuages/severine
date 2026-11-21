@@ -4,10 +4,11 @@
   <h2>Pourquoi « Séverine » ?</h2>
   <p>
     Séverine, de son vrai nom Caroline Rémy (1855-1929), est journaliste. Proche de Jules Vallès,
-    ancien communard, elle reprend après sa mort, en 1885, la direction du Cri du peuple : l'une des
-    premières femmes à diriger un grand quotidien. Toute sa vie, elle écrit pour les ouvrières, les
+    ancien communard, elle reprend après sa mort, en 1885, la direction du Cri du peuple : la première
+    femme à diriger un grand quotidien. Toute sa vie, elle écrit pour les ouvrières, les
     grévistes et les oubliées.
   </p>
+  <p><a href="#/femme/severine">Lire la fiche de Séverine</a></p>
 
   <h2>Ce que l'on trouve ici</h2>
   <p>

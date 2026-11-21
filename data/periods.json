@@ -12,6 +12,7 @@
   { "id": "abolition", "label": "Lutte contre l'esclavage aux États-Unis", "years": "1849-1865", "region": "ameriques" },
   { "id": "inde-1857", "label": "Révolte indienne de 1857", "years": "1857-1858", "region": "asie" },
   { "id": "commune", "label": "Commune de Paris", "years": "1871", "region": "europe" },
+  { "id": "mouvement-ouvrier", "label": "Presse et luttes sociales en France", "years": "1879-1929", "region": "europe" },
   { "id": "russie", "label": "Mouvement révolutionnaire russe", "years": "1878-1923", "region": "europe" },
   { "id": "anarchisme", "label": "Anarchisme aux États-Unis", "years": "1886-1936", "region": "ameriques" },
   { "id": "chine", "label": "Révolution chinoise", "years": "1904-1912", "region": "asie" },
