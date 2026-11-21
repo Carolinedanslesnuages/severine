@@ -1,0 +1,14 @@
+{
+  "name": "Désirée Gay",
+  "birth": "1810",
+  "death": "1891",
+  "periods": ["1848"],
+  "summary": "Ouvrière lingère et saint-simonienne. Elle défend le travail des femmes et la presse féministe.",
+  "actions": [
+    { "date": "1832", "theme": "ecrire", "text": "Elle cofonde La Femme libre, journal écrit et publié par des femmes." },
+    { "date": "1848", "theme": "ecrire", "text": "Elle écrit dans La Voix des femmes, puis publie La Politique des femmes avec Jeanne Deroin." }
+  ],
+  "sources": [
+    { "title": "GAY Jeanne, Désirée, née Véret (Maitron)", "url": "https://maitron.fr/gay-jeanne-desiree-nee-veret/" }
+  ]
+}

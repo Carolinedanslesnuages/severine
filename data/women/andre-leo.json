@@ -1,0 +1,16 @@
+{
+  "name": "André Léo",
+  "birth": "1824",
+  "death": "1900",
+  "periods": ["commune"],
+  "summary": "Romancière et journaliste. Elle signe du prénom de ses deux fils jumeaux et défend la Commune dans la presse.",
+  "actions": [
+    { "date": "1871-03-31", "theme": "ecrire", "text": "Elle fonde le journal La Sociale avec Anna Jaclard. Il paraît jusqu'au 17 mai." },
+    { "date": "1871-04", "theme": "ecrire", "text": "Elle publie un appel aux travailleurs des campagnes pour qu'ils rejoignent Paris." },
+    { "date": "1871-05", "theme": "instruire", "text": "Elle fait partie de la commission chargée de l'enseignement dans les écoles de filles." },
+    { "date": "1871", "theme": "repression", "text": "Elle s'exile en Suisse et publie La Guerre sociale." }
+  ],
+  "sources": [
+    { "title": "CHAMPSEIX André Léo (Maitron)", "url": "https://maitron.fr/champseix-andre-leo-nee-bera-victoire-leodile-dite/" }
+  ]
+}

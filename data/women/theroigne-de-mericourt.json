@@ -1,0 +1,16 @@
+{
+  "name": "Théroigne de Méricourt",
+  "birth": "1762",
+  "death": "1817",
+  "periods": ["revolution-francaise"],
+  "summary": "Venue des Ardennes belges, elle suit l'Assemblée dès 1789 et appelle les femmes à s'armer.",
+  "actions": [
+    { "date": "1789", "theme": "organiser", "text": "Elle assiste aux séances de l'Assemblée nationale et fréquente les clubs patriotes." },
+    { "date": "1792-03-25", "theme": "armes", "text": "Devant la Société fraternelle des Minimes, elle appelle les citoyennes à former des bataillons armés." },
+    { "date": "1793-05", "theme": "repression", "text": "Accusée d'être girondine, elle est déshabillée et fouettée en public par des femmes jacobines." },
+    { "date": "1794", "theme": "repression", "text": "Déclarée folle, elle est internée. Elle finit sa vie à la Salpêtrière." }
+  ],
+  "sources": [
+    { "author": "Élisabeth Roudinesco", "title": "Théroigne de Méricourt. Une femme mélancolique sous la Révolution", "publisher": "Seuil", "year": 1989 }
+  ]
+}

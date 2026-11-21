@@ -1,0 +1,18 @@
+{
+  "name": "Jeanne Deroin",
+  "birth": "1805",
+  "death": "1894",
+  "periods": ["1848"],
+  "summary": "Lingère devenue institutrice. Première femme à se présenter à une élection législative en France.",
+  "actions": [
+    { "date": "1848-03-26", "theme": "ecrire", "text": "Elle commence à écrire dans La Voix des femmes pour l'égalité complète entre femmes et hommes." },
+    { "date": "1848-04", "theme": "droits", "text": "Elle propose à George Sand et à Pauline Roland d'être candidates aux élections. Toutes deux refusent." },
+    { "date": "1848-06", "theme": "ecrire", "text": "Avec Désirée Gay et Eugénie Niboyet, elle publie La Politique des femmes, puis L'Opinion des femmes en 1849." },
+    { "date": "1849", "theme": "droits", "text": "Elle se présente aux élections législatives, alors que les femmes n'ont pas le droit de vote." },
+    { "date": "1850", "theme": "repression", "text": "Elle est arrêtée pour avoir organisé une union d'associations ouvrières, puis emprisonnée." },
+    { "date": "1852", "theme": "repression", "text": "Elle s'exile à Londres, où elle meurt en 1894." }
+  ],
+  "sources": [
+    { "title": "DEROIN Jeanne, Françoise (Maitron)", "url": "https://maitron.fr/deroin-jeanne-francoise-souvent-ecrit-a-tort-derouin-jeanne/" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Charlotte Corday",
+  "birth": "1768",
+  "death": "1793",
+  "periods": ["revolution-francaise"],
+  "summary": "Républicaine normande, proche des Girondins. Elle tue Marat pour, dit-elle, arrêter la guerre civile.",
+  "actions": [
+    { "date": "1793-07", "theme": "ecrire", "text": "Elle écrit une « Adresse aux Français amis des lois et de la paix » pour expliquer son geste." },
+    { "date": "1793-07-13", "theme": "armes", "text": "Elle poignarde Marat, député montagnard, chez lui à Paris." },
+    { "date": "1793-07-17", "theme": "repression", "text": "Elle est jugée et guillotinée." }
+  ],
+  "sources": [
+    { "author": "Guillaume Mazeau", "title": "Le Bain de l'histoire. Charlotte Corday et l'attentat contre Marat (1793-2009)", "publisher": "Champ Vallon", "year": 2009 }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Anna Jaclard",
+  "birth": "1844",
+  "death": "1887",
+  "periods": ["commune"],
+  "summary": "Révolutionnaire russe, membre de l'Internationale. Elle combat pour la Commune à Montmartre.",
+  "actions": [
+    { "date": "1871-03", "theme": "organiser", "text": "Elle entre au Comité de vigilance des citoyennes du XVIIIe arrondissement." },
+    { "date": "1871-03-31", "theme": "ecrire", "text": "Elle fonde le journal La Sociale avec André Léo." },
+    { "date": "1871-04", "theme": "instruire", "text": "Déléguée aux hôpitaux et ambulances, elle soigne les blessés. Elle siège à la commission des écoles de filles." }
+  ],
+  "sources": [
+    { "title": "JACLARD Anna (Maitron)", "url": "https://maitron.fr/jaclard-anna-korvin-krukovskaja-anna-vassilievna/" }
+  ]
+}

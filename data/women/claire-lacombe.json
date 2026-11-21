@@ -1,0 +1,14 @@
+{
+  "name": "Claire Lacombe",
+  "birth": "1765",
+  "death": "après 1798",
+  "periods": ["revolution-francaise"],
+  "summary": "Comédienne. Elle combat aux Tuileries, puis dirige la Société des citoyennes républicaines révolutionnaires.",
+  "actions": [
+    { "date": "1792-08-10", "theme": "armes", "text": "Elle participe à la prise des Tuileries. Blessée, elle reçoit une couronne civique des fédérés." },
+    { "date": "1793-05", "theme": "organiser", "text": "Elle fonde avec Pauline Léon la Société des citoyennes républicaines révolutionnaires, qu'elle préside ensuite." },
+    { "date": "1793-10-30", "theme": "repression", "text": "La Convention interdit les clubs de femmes. Les femmes sont exclues de la vie politique organisée." },
+    { "date": "1794", "theme": "repression", "text": "Elle est arrêtée et reste en prison jusqu'en 1795." }
+  ],
+  "sources": [{ "author": "Dominique Godineau", "title": "Citoyennes tricoteuses. Les femmes du peuple à Paris pendant la Révolution française", "publisher": "Alinéa", "year": 1988 }]
+}

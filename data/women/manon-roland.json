@@ -1,0 +1,16 @@
+{
+  "name": "Manon Roland",
+  "birth": "1754",
+  "death": "1793",
+  "periods": ["revolution-francaise"],
+  "summary": "Âme du parti girondin. Elle écrit pour son mari, ministre, et tient un salon politique.",
+  "actions": [
+    { "date": "1792", "theme": "ecrire", "text": "Son mari devient ministre de l'Intérieur. Elle rédige une partie de ses lettres et textes officiels." },
+    { "date": "1793-06", "theme": "repression", "text": "Elle est arrêtée lors de la chute des Girondins." },
+    { "date": "1793", "theme": "ecrire", "text": "En prison, elle écrit ses Mémoires." },
+    { "date": "1793-11-08", "theme": "repression", "text": "Elle est guillotinée. On lui prête ces mots : « Ô Liberté, que de crimes on commet en ton nom ! »" }
+  ],
+  "sources": [
+    { "author": "Madame Roland", "title": "Mémoires (écrits en prison en 1793)", "publisher": "Mercure de France", "year": 1966 }
+  ]
+}

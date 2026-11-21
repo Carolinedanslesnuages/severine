@@ -1,0 +1,12 @@
+{
+  "name": "Sanité Bélair",
+  "birth": "1781",
+  "death": "1802",
+  "periods": ["antilles"],
+  "summary": "Officière de l'armée de Toussaint Louverture. Elle combat l'expédition française venue rétablir l'esclavage.",
+  "actions": [
+    { "date": "1802", "theme": "armes", "text": "Avec son mari, Charles Bélair, elle mène la résistance armée contre les troupes de Leclerc." },
+    { "date": "1802-10-05", "theme": "repression", "text": "Capturée, elle est exécutée avec son mari. Elle refuse qu'on lui bande les yeux." }
+  ],
+  "sources": [{ "author": "Laurent Dubois", "title": "Avengers of the New World. The Story of the Haitian Revolution", "publisher": "Harvard University Press", "year": 2004 }]
+}

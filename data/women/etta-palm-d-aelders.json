@@ -1,0 +1,13 @@
+{
+  "name": "Etta Palm d'Aelders",
+  "birth": "1743",
+  "death": "1799",
+  "periods": ["revolution-francaise"],
+  "summary": "Hollandaise installée à Paris. Elle dénonce les lois injustes envers les femmes et fonde un club de citoyennes.",
+  "actions": [
+    { "date": "1790-12-30", "theme": "droits", "text": "Au Cercle social, elle prononce un discours sur l'injustice des lois faites par les hommes contre les femmes." },
+    { "date": "1791", "theme": "organiser", "text": "Elle fonde la Société patriotique et de bienfaisance des Amies de la Vérité." },
+    { "date": "1792-04-01", "theme": "droits", "text": "Devant l'Assemblée législative, elle réclame l'instruction des filles, la majorité civile des femmes et le divorce." }
+  ],
+  "sources": [{ "author": "Dominique Godineau", "title": "Citoyennes tricoteuses. Les femmes du peuple à Paris pendant la Révolution française", "publisher": "Alinéa", "year": 1988 }]
+}

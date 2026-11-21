@@ -1,0 +1,17 @@
+{
+  "name": "Élisabeth Dmitrieff",
+  "birth": "1851",
+  "death": "entre 1910 et 1918",
+  "periods": ["commune"],
+  "summary": "Révolutionnaire russe de vingt ans, membre de l'Internationale. Elle cofonde l'Union des femmes.",
+  "actions": [
+    { "date": "1871-04-11", "theme": "organiser", "text": "Elle cofonde l'Union des femmes pour la défense de Paris et les soins aux blessés, avec Nathalie Le Mel." },
+    { "date": "1871-05", "theme": "droits", "text": "Elle propose d'organiser le travail des femmes en associations de production fédérées." },
+    { "date": "1871-05-25", "theme": "armes", "text": "Sur les barricades de la Semaine sanglante, elle aide Léo Frankel, blessé." },
+    { "date": "1871", "theme": "repression", "text": "Elle échappe à la répression et rentre en Russie, où elle finit sa vie en Sibérie." }
+  ],
+  "sources": [
+    { "title": "DMITRIEFF Élisabeth (Maitron)", "url": "https://maitron.fr/dmitrieff-elisabeth-tomanovskaia-dite/" },
+    { "author": "Sylvie Braibant", "title": "Élisabeth Dmitrieff, aristocrate et pétroleuse", "publisher": "Belfond", "year": 1993 }
+  ]
+}

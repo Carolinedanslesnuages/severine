@@ -1,0 +1,14 @@
+{
+  "name": "George Sand",
+  "birth": "1804",
+  "death": "1876",
+  "periods": ["1848"],
+  "summary": "Romancière célèbre. En 1848, elle met sa plume au service de la République.",
+  "actions": [
+    { "date": "1848", "theme": "ecrire", "text": "Elle rédige des Bulletins de la République pour le ministère de l'Intérieur du gouvernement provisoire." },
+    { "date": "1848-04", "theme": "droits", "text": "Elle refuse publiquement la candidature que lui proposent les militantes de La Voix des femmes." }
+  ],
+  "sources": [
+    { "author": "George Sand, textes réunis par Michelle Perrot", "title": "Politique et polémiques (1843-1850)", "publisher": "Imprimerie nationale", "year": 1997 }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Eugénie Niboyet",
+  "birth": "1796",
+  "death": "1883",
+  "periods": ["1848"],
+  "summary": "Journaliste. En 1848, elle dirige La Voix des femmes, premier quotidien féministe, et préside le Club des femmes.",
+  "actions": [
+    { "date": "1848-03-20", "theme": "ecrire", "text": "Premier numéro de La Voix des femmes, qu'elle dirige. Le journal réclame l'égalité des droits, et d'abord le droit de vote." },
+    { "date": "1848-05", "theme": "organiser", "text": "Elle préside le Club des femmes, qui ouvre sous les moqueries." },
+    { "date": "1848-06-18", "theme": "repression", "text": "Dernier numéro de La Voix des femmes. Les clubs de femmes sont bientôt interdits." }
+  ],
+  "sources": [
+    { "title": "NIBOYET Eugénie, née MOUCHON Eugénie (Maitron)", "url": "https://maitron.fr/niboyet-eugenie-nee-mouchon-eugenie/" }
+  ]
+}

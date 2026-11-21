@@ -1,0 +1,14 @@
+{
+  "name": "Pauline Léon",
+  "birth": "1768",
+  "death": "1838",
+  "periods": ["revolution-francaise"],
+  "summary": "Chocolatière parisienne. Elle réclame le droit des femmes à porter les armes et fonde le premier club de femmes révolutionnaires.",
+  "actions": [
+    { "date": "1792-03-06", "theme": "armes", "text": "Elle lit à l'Assemblée législative une pétition signée par plus de 300 Parisiennes : les femmes veulent s'armer pour défendre la patrie." },
+    { "date": "1793-05", "theme": "organiser", "text": "Elle fonde avec Claire Lacombe la Société des citoyennes républicaines révolutionnaires." },
+    { "date": "1793-10-30", "theme": "repression", "text": "La Convention interdit tous les clubs de femmes. Sa société disparaît." },
+    { "date": "1794", "theme": "repression", "text": "Elle est arrêtée avec son mari, Théophile Leclerc, puis libérée quelques mois plus tard." }
+  ],
+  "sources": [{ "author": "Dominique Godineau", "title": "Citoyennes tricoteuses. Les femmes du peuple à Paris pendant la Révolution française", "publisher": "Alinéa", "year": 1988 }]
+}

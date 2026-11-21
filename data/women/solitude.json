@@ -1,0 +1,33 @@
+{
+  "name": "Solitude",
+  "birth": "vers 1772",
+  "death": "1802",
+  "periods": [
+    "antilles"
+  ],
+  "summary": "Figure de la résistance au rétablissement de l'esclavage en Guadeloupe.",
+  "actions": [
+    {
+      "date": "1802",
+      "theme": "armes",
+      "text": "Enceinte, elle rejoint les insurgés qui résistent aux troupes envoyées par Bonaparte pour rétablir l'esclavage."
+    },
+    {
+      "date": "1802-11-29",
+      "theme": "repression",
+      "text": "Condamnée à mort, elle est exécutée le lendemain de son accouchement."
+    }
+  ],
+  "sources": [
+    {
+      "author": "Arlette Gautier",
+      "title": "Les Sœurs de Solitude. La condition féminine dans l'esclavage aux Antilles",
+      "publisher": "Éditions caribéennes",
+      "year": 1985
+    },
+    {
+      "title": "Solitude, notice de la Fondation pour la mémoire de l'esclavage",
+      "url": "https://memoire-esclavage.org/tcpdf/403"
+    }
+  ]
+}

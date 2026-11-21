@@ -1,0 +1,11 @@
+{
+  "name": "Marie-Jeanne Lamartinière",
+  "birth": "vers 1780",
+  "death": "inconnue",
+  "periods": ["antilles"],
+  "summary": "Combattante de la Révolution haïtienne, célèbre pour la défense du fort de la Crête-à-Pierrot.",
+  "actions": [
+    { "date": "1802-03", "theme": "armes", "text": "Au fort de la Crête-à-Pierrot, elle combat aux côtés de son mari, Louis Daure Lamartinière, contre les troupes françaises." }
+  ],
+  "sources": [{ "author": "Laurent Dubois", "title": "Avengers of the New World. The Story of the Haitian Revolution", "publisher": "Harvard University Press", "year": 2004 }]
+}

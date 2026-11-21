@@ -1,0 +1,8 @@
+[
+  { "id": "armes", "label": "Prendre les armes" },
+  { "id": "ecrire", "label": "Écrire, publier" },
+  { "id": "organiser", "label": "S'organiser" },
+  { "id": "droits", "label": "Réclamer des droits" },
+  { "id": "instruire", "label": "Instruire, soigner" },
+  { "id": "repression", "label": "Payer le prix" }
+]

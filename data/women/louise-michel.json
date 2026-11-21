@@ -1,0 +1,58 @@
+{
+  "name": "Louise Michel",
+  "birth": "1830",
+  "death": "1905",
+  "periods": [
+    "commune"
+  ],
+  "summary": "Institutrice, combattante de la Commune, déportée en Nouvelle-Calédonie. La « Vierge rouge ».",
+  "actions": [
+    {
+      "date": "1871-03",
+      "theme": "organiser",
+      "text": "Elle anime le Comité de vigilance des citoyennes du XVIIIe arrondissement."
+    },
+    {
+      "date": "1871-03-18",
+      "theme": "armes",
+      "text": "À Montmartre, elle est parmi les femmes qui empêchent l'armée de reprendre les canons de la Garde nationale."
+    },
+    {
+      "date": "1871-05",
+      "theme": "armes",
+      "text": "Elle combat, fusil en main, et soigne les blessés jusqu'à la Semaine sanglante."
+    },
+    {
+      "date": "1871-12",
+      "theme": "repression",
+      "text": "Devant le conseil de guerre, elle revendique ses actes. Elle est condamnée à la déportation."
+    },
+    {
+      "date": "1873",
+      "theme": "repression",
+      "text": "Elle est déportée en Nouvelle-Calédonie. Elle y instruit des Kanak."
+    },
+    {
+      "date": "1880",
+      "theme": "instruire",
+      "text": "Amnistiée, elle rentre à Paris et reprend ses conférences."
+    },
+    {
+      "date": "1898",
+      "theme": "ecrire",
+      "text": "Elle publie La Commune, son récit de l'insurrection."
+    }
+  ],
+  "sources": [
+    {
+      "title": "MICHEL Louise, Dictionnaire des anarchistes (Maitron)",
+      "url": "https://maitron.fr/michel-louise-dictionnaire-des-anarchistes/"
+    },
+    {
+      "author": "Louise Michel",
+      "title": "La Commune",
+      "publisher": "Stock",
+      "year": 1898
+    }
+  ]
+}

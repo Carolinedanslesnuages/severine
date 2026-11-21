@@ -1,0 +1,6 @@
+[
+  { "id": "revolution-francaise", "label": "Révolution française", "years": "1789-1799" },
+  { "id": "antilles", "label": "Haïti et Guadeloupe", "years": "1791-1804" },
+  { "id": "1848", "label": "Révolution de 1848", "years": "1848-1852" },
+  { "id": "commune", "label": "Commune de Paris", "years": "1871" }
+]

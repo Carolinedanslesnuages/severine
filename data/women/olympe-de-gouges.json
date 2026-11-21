@@ -1,0 +1,16 @@
+{
+  "name": "Olympe de Gouges",
+  "birth": "1748",
+  "death": "1793",
+  "periods": ["revolution-francaise"],
+  "summary": "Femme de lettres. Elle écrit la Déclaration des droits de la femme et de la citoyenne, et le paie de sa vie.",
+  "actions": [
+    { "date": "1789-12", "theme": "ecrire", "text": "Sa pièce contre l'esclavage, « L'Esclavage des Noirs », est jouée à la Comédie-Française." },
+    { "date": "1791-09", "theme": "droits", "text": "Elle publie la Déclaration des droits de la femme et de la citoyenne : « La femme a le droit de monter sur l'échafaud ; elle doit avoir également celui de monter à la tribune. »" },
+    { "date": "1793-07", "theme": "repression", "text": "Elle est arrêtée pour une affiche, « Les Trois Urnes », qui propose aux Français de choisir leur gouvernement." },
+    { "date": "1793-11-03", "theme": "repression", "text": "Elle est guillotinée à Paris." }
+  ],
+  "sources": [
+    { "author": "Olivier Blanc", "title": "Olympe de Gouges", "publisher": "Syros", "year": 1981 }
+  ]
+}

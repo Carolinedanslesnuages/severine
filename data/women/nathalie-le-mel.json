@@ -1,0 +1,16 @@
+{
+  "name": "Nathalie Le Mel",
+  "birth": "1826",
+  "death": "1921",
+  "periods": ["commune"],
+  "summary": "Relieuse bretonne, militante de l'Internationale. Elle dirige l'Union des femmes avec Élisabeth Dmitrieff.",
+  "actions": [
+    { "date": "1868", "theme": "organiser", "text": "Avec Eugène Varlin, elle ouvre La Marmite, restaurant coopératif pour les ouvriers." },
+    { "date": "1871-04", "theme": "organiser", "text": "Elle cofonde l'Union des femmes pour la défense de Paris et les soins aux blessés." },
+    { "date": "1871-06-21", "theme": "repression", "text": "Elle est arrêtée, puis condamnée à la déportation en Nouvelle-Calédonie." },
+    { "date": "1879", "theme": "repression", "text": "Elle rentre en France grâce à une amnistie partielle. Elle meurt pauvre à l'hospice d'Ivry." }
+  ],
+  "sources": [
+    { "title": "LE MEL Nathalie (Maitron)", "url": "https://maitron.fr/le-mel-nathalie-nee-duval-perrine-natalie-ecrit-parfois-par-erreur-lemel/" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Pauline Roland",
+  "birth": "1805",
+  "death": "1852",
+  "periods": ["1848"],
+  "summary": "Institutrice socialiste. Elle devient le symbole des femmes déportées après le coup d'État de 1851.",
+  "actions": [
+    { "date": "1850", "theme": "organiser", "text": "Avec Jeanne Deroin, elle organise une union d'associations ouvrières. Elles sont arrêtées et condamnées." },
+    { "date": "1852-02", "theme": "repression", "text": "Après le coup d'État de Louis-Napoléon Bonaparte, elle est arrêtée puis déportée en Algérie." },
+    { "date": "1852-12", "theme": "repression", "text": "Libérée, épuisée, elle meurt à Lyon sur le chemin du retour." }
+  ],
+  "sources": [
+    { "title": "ROLAND Pauline (Maitron)", "url": "https://maitron.fr/roland-pauline-roland-marie-desiree-pauline/" }
+  ]
+}

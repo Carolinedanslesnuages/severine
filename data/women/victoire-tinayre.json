@@ -1,0 +1,14 @@
+{
+  "name": "Victoire Tinayre",
+  "birth": "1831",
+  "death": "1895",
+  "periods": ["commune"],
+  "summary": "Institutrice et membre de l'Internationale. La Commune la nomme inspectrice des écoles de filles.",
+  "actions": [
+    { "date": "1871-04", "theme": "instruire", "text": "Elle devient inspectrice des écoles de filles du XIIe arrondissement." },
+    { "date": "1883", "theme": "instruire", "text": "Elle dirige les écoles du Familistère de Guise." }
+  ],
+  "sources": [
+    { "title": "TINAYRE Victoire (Maitron)", "url": "https://maitron.fr/tinayre-victoire-nee-guerrier-marguerite-victoire/" }
+  ]
+}
