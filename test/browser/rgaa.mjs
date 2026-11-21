@@ -46,14 +46,20 @@ check('12.7', (await page.evaluate(() => document.activeElement.id)) === 'conten
 check('12.7', (await page.locator('h1').textContent()) === 'Les femmes', 'la page reste la même');
 
 // Search and filters, with a short status message.
+const totalCount = await page.locator('.cards > li').count();
 await page.fill('#search', 'commune montmartre');
 const searchCount = await page.locator('.cards > li').count();
-check('recherche', searchCount >= 1 && searchCount < 21, `« commune montmartre » : ${searchCount} fiche(s)`);
+check('recherche', searchCount >= 1 && searchCount < totalCount, `« commune montmartre » : ${searchCount} fiche(s)`);
 check('7.5', /^\d+ femmes?$/.test(await page.textContent('[role=status]')), `message de statut : « ${await page.textContent('[role=status]')} »`);
 await page.fill('#search', '');
-await page.getByText('Commune de Paris', { exact: false }).first().click();
-const communeCount = await page.locator('.cards > li').count();
-check('filtre', communeCount > 0 && communeCount < 21, `période Commune : ${communeCount} fiches`);
+await page.getByText('Afrique', { exact: true }).click();
+const africaCount = await page.locator('.cards > li').count();
+check('filtre', africaCount > 0 && africaCount < totalCount, `région Afrique : ${africaCount} fiches`);
+await page.getByText('Antiquité et Moyen Âge', { exact: true }).click();
+const ancientCount = await page.locator('.cards > li').count();
+check('filtre', ancientCount >= 1 && ancientCount < africaCount, `Afrique + Antiquité et Moyen Âge : ${ancientCount} fiche(s)`);
+await page.getByText('Toutes', { exact: true }).first().click();
+await page.getByText('Toutes', { exact: true }).nth(1).click();
 
 // 12.x navigation: after a link, focus is on the new page title.
 await page.click('a[href="#/femme/louise-michel"]');
@@ -69,7 +75,7 @@ check('erreur', (await page.locator('h1').textContent()) === 'Page introuvable',
 
 // 10.11 reflow at 320 px, no horizontal scroll.
 const narrow = await browser.newPage({ viewport: { width: 320, height: 640 } });
-for (const hash of ['#/', '#/frise', '#/femme/elisabeth-dmitrieff']) {
+for (const hash of ['#/', '#/frise', '#/femme/elisabeth-dmitrieff', '#/femme/funmilayo-ransome-kuti']) {
   await narrow.goto(SITE_URL + hash);
   await narrow.waitForSelector('h1');
   const overflow = await narrow.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);

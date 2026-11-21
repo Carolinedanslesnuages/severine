@@ -1,0 +1,32 @@
+{
+  "name": "Les sœurs Trưng",
+  "birth": "inconnue",
+  "death": "43",
+  "periods": [
+    "trung"
+  ],
+  "summary": "Trưng Trắc et Trưng Nhị mènent le premier grand soulèvement vietnamien contre la domination chinoise.",
+  "actions": [
+    {
+      "date": "0039",
+      "theme": "armes",
+      "text": "Avec l'aristocratie locale, elles marchent sur Liên Lâu et chassent le gouverneur chinois."
+    },
+    {
+      "date": "0040",
+      "theme": "organiser",
+      "text": "Elles prennent 65 citadelles et sont proclamées reines d'un État indépendant."
+    },
+    {
+      "date": "0043",
+      "theme": "repression",
+      "text": "Vaincues par l'armée des Han du général Ma Yuan, elles meurent. Le Viêt Nam les honore encore."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Trung Sisters (Britannica)",
+      "url": "https://www.britannica.com/topic/Trung-Sisters"
+    }
+  ]
+}

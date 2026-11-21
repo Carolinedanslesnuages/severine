@@ -1,0 +1,36 @@
+{
+  "name": "Lakshmi Bai",
+  "birth": "vers 1828",
+  "death": "1858",
+  "periods": [
+    "inde-1857"
+  ],
+  "summary": "Rani de Jhansi. Elle prend la tête de la révolte contre les Britanniques dans le Bundelkhand.",
+  "actions": [
+    {
+      "date": "1857",
+      "theme": "armes",
+      "text": "Les Britanniques veulent annexer Jhansi. Elle prend le commandement des insurgés."
+    },
+    {
+      "date": "1858-04",
+      "theme": "armes",
+      "text": "Jhansi tombe. Elle s'échappe et rejoint Tantia Tope."
+    },
+    {
+      "date": "1858-06",
+      "theme": "repression",
+      "text": "Elle est tuée au combat près de Gwalior."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indian Rebellion of 1857 (Britannica)",
+      "url": "https://www.britannica.com/event/Indian-Rebellion-of-1857"
+    },
+    {
+      "title": "Tantia Tope (Britannica)",
+      "url": "https://www.britannica.com/biography/Tantia-Tope"
+    }
+  ]
+}

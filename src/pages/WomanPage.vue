@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue';
-import { women, periodLabel, themeLabel } from '../data.js';
-import { formatDate, gallicaSearchUrl } from '../format.js';
+import { women, periodLabel, regionLabel, themeLabel } from '../data.js';
+import { formatDate, gallicaSearchUrl, lifespan } from '../format.js';
 
 const props = defineProps({ woman: { type: Object, required: true } });
 
@@ -16,7 +16,7 @@ const sourceText = (source) => [source.author, source.title, source.publisher, s
 <template>
   <p class="back"><a href="#/">Toutes les femmes</a></p>
   <h1 class="page-title" tabindex="-1">{{ woman.name }}</h1>
-  <p class="meta">{{ woman.birth }} – {{ woman.death }} · {{ woman.periods.map(periodLabel).join(', ') }}</p>
+  <p class="meta">{{ lifespan(woman) }} · {{ woman.periods.map(periodLabel).join(', ') }} · {{ woman.regions.map(regionLabel).join(', ') }}</p>
   <p class="lead">{{ woman.summary }}</p>
 
   <h2>Ses actions</h2>

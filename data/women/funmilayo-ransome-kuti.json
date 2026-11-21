@@ -1,0 +1,32 @@
+{
+  "name": "Funmilayo Ransome-Kuti",
+  "birth": "1900",
+  "death": "1978",
+  "periods": [
+    "nigeria"
+  ],
+  "summary": "Institutrice. Elle mène les femmes d'Abeokuta contre un impôt injuste et fait tomber leur roi.",
+  "actions": [
+    {
+      "date": "1946",
+      "theme": "organiser",
+      "text": "Elle préside l'Union des femmes d'Abeokuta, ouverte à toutes, dont les commerçantes des marchés."
+    },
+    {
+      "date": "1947",
+      "theme": "droits",
+      "text": "Elle organise de grandes manifestations contre l'impôt spécial sur les femmes."
+    },
+    {
+      "date": "1949",
+      "theme": "droits",
+      "text": "Le roi d'Abeokuta, l'Alake, doit abdiquer pour un temps."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Funmilayo Ransome-Kuti (Britannica)",
+      "url": "https://www.britannica.com/biography/Funmilayo-Ransome-Kuti"
+    }
+  ]
+}

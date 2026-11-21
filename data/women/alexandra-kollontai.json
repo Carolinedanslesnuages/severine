@@ -1,0 +1,42 @@
+{
+  "name": "Alexandra Kollontaï",
+  "birth": "1872",
+  "death": "1952",
+  "periods": [
+    "russie"
+  ],
+  "summary": "Révolutionnaire bolchevique et féministe. Première femme membre d'un gouvernement, puis diplomate.",
+  "actions": [
+    {
+      "date": "1917-10",
+      "theme": "droits",
+      "text": "Elle devient commissaire du peuple aux Affaires sociales : la première femme d'un gouvernement."
+    },
+    {
+      "date": "1918",
+      "theme": "organiser",
+      "text": "Elle démissionne pour protester contre le traité de Brest-Litovsk."
+    },
+    {
+      "date": "1921",
+      "theme": "organiser",
+      "text": "Avec l'Opposition ouvrière, elle réclame que les syndicats dirigent l'économie."
+    },
+    {
+      "date": "1923",
+      "theme": "droits",
+      "text": "Elle représente l'URSS en Norvège, une des premières femmes ambassadrices."
+    }
+  ],
+  "sources": [
+    {
+      "author": "Irina Novikova et Kristen Ghodsee",
+      "title": "Alexandra Kollontai (1872–1952): Communism as the Only Path to Women's Liberation",
+      "url": "https://scholar.harvard.edu/files/kristenghodsee/files/novikova_and_ghodsee_-_alexandra_kollontai.pdf"
+    },
+    {
+      "title": "Workers' Opposition (Britannica)",
+      "url": "https://www.britannica.com/topic/Workers-Opposition"
+    }
+  ]
+}

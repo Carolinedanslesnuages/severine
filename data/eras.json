@@ -1,0 +1,7 @@
+[
+  { "id": "antiquite-moyen-age", "label": "Antiquité et Moyen Âge", "from": 0, "to": 1499 },
+  { "id": "temps-modernes", "label": "XVIe-XVIIIe siècle", "from": 1500, "to": 1799 },
+  { "id": "xixe", "label": "XIXe siècle", "from": 1800, "to": 1899 },
+  { "id": "xxe", "label": "XXe siècle", "from": 1900, "to": 1999 },
+  { "id": "xxie", "label": "XXIe siècle", "from": 2000, "to": 2099 }
+]

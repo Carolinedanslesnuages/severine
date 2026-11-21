@@ -1,0 +1,42 @@
+{
+  "name": "Emma Goldman",
+  "birth": "1869",
+  "death": "1940",
+  "periods": [
+    "anarchisme"
+  ],
+  "summary": "Anarchiste, née en Lituanie et installée aux États-Unis. Elle défend la liberté, le contrôle des naissances et les ouvriers.",
+  "actions": [
+    {
+      "date": "1906",
+      "theme": "ecrire",
+      "text": "Elle fonde la revue Mother Earth."
+    },
+    {
+      "date": "1917",
+      "theme": "repression",
+      "text": "Elle est condamnée à deux ans de prison pour s'être opposée à la conscription."
+    },
+    {
+      "date": "1919-12",
+      "theme": "repression",
+      "text": "Elle est expulsée vers la Russie soviétique avec 248 autres « étrangers subversifs »."
+    },
+    {
+      "date": "1923",
+      "theme": "ecrire",
+      "text": "Elle publie My Disillusionment in Russia, sa critique du pouvoir bolchevique."
+    },
+    {
+      "date": "1936",
+      "theme": "organiser",
+      "text": "Elle s'engage aux côtés de la révolution espagnole contre le fascisme."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Emma Goldman (Britannica)",
+      "url": "https://www.britannica.com/biography/Emma-Goldman"
+    }
+  ]
+}

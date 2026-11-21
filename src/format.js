@@ -6,9 +6,16 @@ const MONTHS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet'
 /** Accepted date formats: "1793", "1793-07" or "1793-07-13". */
 export const DATE_PATTERN = /^\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$/;
 
+/** "0060" → "60 apr. J.-C.", "1792" → "1792". */
+export function formatYear(year) {
+  const number = Number(year);
+  return number < 1000 ? `${number} apr. J.-C.` : String(number);
+}
+
 /** "1793-07-13" → "13 juillet 1793", "1871-04" → "avril 1871", "1792" → "1792". */
 export function formatDate(date) {
-  const [year, month, day] = date.split('-');
+  const [rawYear, month, day] = date.split('-');
+  const year = formatYear(rawYear);
   if (!month) return year;
   const monthName = MONTHS[Number(month) - 1];
   if (!day) return `${monthName} ${year}`;
@@ -57,4 +64,17 @@ export function isChronological(dates) {
     const length = Math.min(date.length, previous.length);
     return previous.slice(0, length) <= date.slice(0, length);
   });
+}
+
+/** "1748 – 1793", "née en 1979" (living woman: empty death), "naissance inconnue – 43". */
+export function lifespan(woman) {
+  if (!woman.death) return `née en ${woman.birth}`;
+  const birth = woman.birth === 'inconnue' ? 'naissance inconnue' : woman.birth;
+  return `${birth} – ${woman.death}`;
+}
+
+/** The era of a woman: the one containing the year of her first action. */
+export function eraOf(woman, eras) {
+  const year = Number(firstActionDate(woman).slice(0, 4));
+  return eras.find((era) => year >= era.from && year <= era.to)?.id;
 }

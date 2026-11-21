@@ -1,0 +1,36 @@
+{
+  "name": "Boudica",
+  "birth": "inconnue",
+  "death": "vers 61",
+  "periods": [
+    "icenes"
+  ],
+  "summary": "Reine des Icènes, en Bretagne romaine. Elle mène la plus grande révolte contre Rome dans l'île.",
+  "actions": [
+    {
+      "date": "0060",
+      "theme": "repression",
+      "text": "À la mort de son mari, Rome confisque son royaume. Elle est fouettée, ses filles sont violées."
+    },
+    {
+      "date": "0060",
+      "theme": "armes",
+      "text": "Elle soulève les Icènes et les Trinovantes, et détruit Camulodunum, Verulamium et Londinium."
+    },
+    {
+      "date": "0061",
+      "theme": "repression",
+      "text": "Vaincue par le gouverneur Suetonius Paulinus, elle meurt, peut-être en s'empoisonnant."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Boudicca (Britannica)",
+      "url": "https://www.britannica.com/biography/Boudicca"
+    },
+    {
+      "author": "Tacite",
+      "title": "Annales, livre XIV"
+    }
+  ]
+}

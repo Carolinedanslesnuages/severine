@@ -1,0 +1,41 @@
+{
+  "name": "Djamila Bouhired",
+  "birth": "années 1930",
+  "death": "",
+  "periods": [
+    "algerie"
+  ],
+  "summary": "Militante du FLN pendant la bataille d'Alger. Sa condamnation à mort soulève l'opinion internationale.",
+  "actions": [
+    {
+      "date": "1957-04",
+      "theme": "repression",
+      "text": "Blessée, elle est arrêtée dans la Casbah, puis torturée."
+    },
+    {
+      "date": "1957-07",
+      "theme": "repression",
+      "text": "Un tribunal militaire la condamne à mort."
+    },
+    {
+      "date": "1958",
+      "theme": "droits",
+      "text": "Après une campagne internationale, sa peine est commuée en prison à vie."
+    },
+    {
+      "date": "1962",
+      "theme": "droits",
+      "text": "Elle est libérée à l'indépendance de l'Algérie."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bouhired, Djamila (1937—), Women in World History (Encyclopedia.com)",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/bouhired-djamila-1937"
+    },
+    {
+      "title": "Djamila Bouhired: A Profile From the Archives (Jadaliyya)",
+      "url": "https://www.jadaliyya.com/Details/27072"
+    }
+  ]
+}

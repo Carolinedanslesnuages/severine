@@ -1,0 +1,32 @@
+{
+  "name": "Lucía Sánchez Saornil",
+  "birth": "1895",
+  "death": "1970",
+  "periods": [
+    "espagne"
+  ],
+  "summary": "Poétesse anarchiste. Elle cofonde Mujeres Libres, pour mener ensemble la révolution sociale et la libération des femmes.",
+  "actions": [
+    {
+      "date": "1936-05",
+      "theme": "ecrire",
+      "text": "Avec Mercedes Comaposada et Amparo Poch, elle publie le premier numéro de la revue Mujeres Libres."
+    },
+    {
+      "date": "1936",
+      "theme": "organiser",
+      "text": "Mujeres Libres devient une fédération : jusqu'à 25 000 femmes pendant la guerre."
+    },
+    {
+      "date": "1939",
+      "theme": "repression",
+      "text": "La victoire de Franco met fin à l'organisation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Free Women and AMA (Museo Reina Sofía)",
+      "url": "https://www.museoreinasofia.es/en/collection/research-projects/women-civil-war/free-women-ama/"
+    }
+  ]
+}

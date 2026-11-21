@@ -1,0 +1,32 @@
+{
+  "name": "Constance Markievicz",
+  "birth": "1868",
+  "death": "1927",
+  "periods": [
+    "irlande"
+  ],
+  "summary": "Combattante de l'insurrection de Pâques à Dublin, puis première femme élue au Parlement britannique.",
+  "actions": [
+    {
+      "date": "1916-04",
+      "theme": "armes",
+      "text": "Elle combat pendant l'insurrection de Pâques. Condamnée à mort, elle voit sa peine commuée parce qu'elle est une femme."
+    },
+    {
+      "date": "1918-12",
+      "theme": "droits",
+      "text": "Elle est la première femme élue à Westminster, mais refuse de siéger pour ne pas prêter serment au roi."
+    },
+    {
+      "date": "1919",
+      "theme": "organiser",
+      "text": "Ministre du Travail du premier Dáil, le parlement irlandais."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Constance Markievicz (Britannica)",
+      "url": "https://www.britannica.com/biography/Constance-Markievicz"
+    }
+  ]
+}

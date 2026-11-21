@@ -1,0 +1,65 @@
+{
+  "name": "Séverine",
+  "birth": "1855",
+  "death": "1929",
+  "periods": [
+    "mouvement-ouvrier"
+  ],
+  "summary": "Caroline Rémy, journaliste libertaire et féministe. Elle donne son nom à ce site : toute sa vie, elle écrit pour les pauvres, les grévistes et les oubliées.",
+  "actions": [
+    {
+      "date": "1879",
+      "theme": "ecrire",
+      "text": "Elle rencontre Jules Vallès, ancien communard rentré d'exil, et devient sa collaboratrice."
+    },
+    {
+      "date": "1883",
+      "theme": "ecrire",
+      "text": "Avec Vallès, elle relance Le Cri du peuple, le journal de la Commune."
+    },
+    {
+      "date": "1885",
+      "theme": "organiser",
+      "text": "À la mort de Vallès, elle dirige Le Cri du peuple : la première femme à la tête d'un grand quotidien."
+    },
+    {
+      "date": "1890",
+      "theme": "ecrire",
+      "text": "Après une explosion, elle descend dans une mine de Saint-Étienne : l'un des premiers reportages d'une femme au fond."
+    },
+    {
+      "date": "1897-12-09",
+      "theme": "ecrire",
+      "text": "Elle rejoint La Fronde de Marguerite Durand, quotidien entièrement écrit par des femmes."
+    },
+    {
+      "date": "1899",
+      "theme": "droits",
+      "text": "Dreyfusarde, elle couvre le procès de Rennes. Ses positions lui ferment plusieurs journaux."
+    },
+    {
+      "date": "1921",
+      "theme": "organiser",
+      "text": "Elle adhère au Parti communiste. Elle en est exclue en 1923."
+    },
+    {
+      "date": "1927",
+      "theme": "droits",
+      "text": "Dernière apparition publique : elle défend Sacco et Vanzetti, anarchistes condamnés à mort aux États-Unis."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SÉVERINE [Caroline RÉMY, dite], Dictionnaire des anarchistes (Maitron)",
+      "url": "https://maitron.fr/severine-caroline-remy-dite-dictionnaire-des-anarchistes/"
+    },
+    {
+      "title": "Il y a 90 ans mourait la journaliste Séverine (Bibliothèques de la Ville de Paris)",
+      "url": "https://bibliotheques-specialisees.paris.fr/decouverte/focus/il-y-a-90-ans-mourrait-la-journaliste-severine-1855-1929"
+    },
+    {
+      "author": "Évelyne Le Garrec",
+      "title": "Séverine, vie et combats d'une frondeuse"
+    }
+  ]
+}

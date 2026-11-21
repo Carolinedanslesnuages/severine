@@ -1,0 +1,27 @@
+{
+  "name": "Bhikaiji Cama",
+  "birth": "1861",
+  "death": "1936",
+  "periods": [
+    "inde"
+  ],
+  "summary": "Militante de l'indépendance de l'Inde et des droits des femmes, exilée en Europe.",
+  "actions": [
+    {
+      "date": "1907-08",
+      "theme": "droits",
+      "text": "Au congrès socialiste international de Stuttgart, elle déploie un des premiers drapeaux de l'Inde indépendante."
+    },
+    {
+      "date": "1907",
+      "theme": "organiser",
+      "text": "Elle part en tournée de conférences pour rallier les Indiens de l'étranger contre la domination britannique."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bhikaiji Cama (Britannica)",
+      "url": "https://www.britannica.com/biography/Bhikaiji-Cama"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Dolores Ibárruri",
+  "birth": "1895",
+  "death": "1989",
+  "periods": [
+    "espagne"
+  ],
+  "summary": "« La Pasionaria ». Dirigeante communiste et oratrice de la République espagnole.",
+  "actions": [
+    {
+      "date": "1918",
+      "theme": "ecrire",
+      "text": "Elle signe pour la première fois « La Pasionaria » dans un journal de mineurs."
+    },
+    {
+      "date": "1936",
+      "theme": "droits",
+      "text": "Elle est élue députée."
+    },
+    {
+      "date": "1936-07",
+      "theme": "ecrire",
+      "text": "Contre le coup d'État franquiste, elle lance le cri « ¡No pasarán! »."
+    },
+    {
+      "date": "1939",
+      "theme": "repression",
+      "text": "Après la victoire de Franco, elle s'exile en Union soviétique."
+    },
+    {
+      "date": "1977-05-13",
+      "theme": "droits",
+      "text": "Elle rentre en Espagne après la mort de Franco."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dolores Ibárruri (Britannica)",
+      "url": "https://www.britannica.com/biography/Dolores-Ibarruri"
+    }
+  ]
+}

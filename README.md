@@ -15,13 +15,14 @@ n'écoutait pas.
 - **La frise** : toutes les actions, année par année, filtrables par type (prendre les armes,
   écrire, s'organiser, réclamer des droits, instruire et soigner, payer le prix).
 
-Périodes couvertes : Révolution française, Haïti et Guadeloupe (1791-1804), révolution de 1848,
-Commune de Paris.
+Partout dans le monde et à toutes les époques : des sœurs Trưng et de Boudica, qui se soulèvent
+contre des empires, jusqu'au mouvement « Femme, vie, liberté ». Filtres par région et par époque.
 
 ## Les sources
 
 Chaque fait vient d'une source citée dans la fiche : livre d'historienne ou d'historien, notice du
-[Maitron](https://maitron.fr/), texte d'époque. Wikipédia sert à repérer une piste, jamais de
+[Maitron](https://maitron.fr/), encyclopédie, site d'institution (musée, parc national, gouvernement,
+Fondation Nobel), texte d'époque. Wikipédia sert à repérer une piste, jamais de
 source (le test le refuse). Si une date est incertaine, la fiche garde seulement l'année ou le mois.
 
 ## Ajouter ou corriger une femme
@@ -46,9 +47,12 @@ Une femme = un fichier `data/women/<identifiant>.json` (minuscules, sans accents
 ```
 
 - `date` : `AAAA`, `AAAA-MM` ou `AAAA-MM-JJ`, actions dans l'ordre chronologique.
-- `periods` : identifiants de [data/periods.json](data/periods.json).
+- `death` : vide (`""`) si elle est vivante.
+- `periods` : les mouvements de [data/periods.json](data/periods.json). Chaque mouvement a une
+  région ([data/regions.json](data/regions.json)) ; l'époque se déduit de la première action
+  ([data/eras.json](data/eras.json)). Une date avant l'an 1000 s'écrit sur 4 chiffres : `0060`.
 - `theme` : identifiants de [data/themes.json](data/themes.json).
-- Une source sans lien cite l'auteur, l'éditeur et l'année.
+- Une source sans lien cite au moins son auteur.
 
 `npm test` vérifie toutes les fiches.
 

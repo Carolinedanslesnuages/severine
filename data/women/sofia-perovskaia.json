@@ -1,0 +1,32 @@
+{
+  "name": "Sofia Perovskaïa",
+  "birth": "1853",
+  "death": "1881",
+  "periods": [
+    "russie"
+  ],
+  "summary": "Dirigeante de la Narodnaïa Volia, « la Volonté du peuple ». Elle organise l'attentat contre le tsar Alexandre II.",
+  "actions": [
+    {
+      "date": "1879",
+      "theme": "organiser",
+      "text": "Elle dirige la Narodnaïa Volia avec Andreï Jeliabov."
+    },
+    {
+      "date": "1881-03-13",
+      "theme": "armes",
+      "text": "Elle commande l'attentat qui tue Alexandre II à Saint-Pétersbourg."
+    },
+    {
+      "date": "1881-04",
+      "theme": "repression",
+      "text": "Elle est pendue avec ses camarades."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Narodnaya Volya (Britannica)",
+      "url": "https://www.britannica.com/topic/Narodnaya-Volya-Russian-revolutionary-organization"
+    }
+  ]
+}

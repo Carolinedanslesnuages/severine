@@ -1,0 +1,36 @@
+{
+  "name": "Rosa Luxemburg",
+  "birth": "1871",
+  "death": "1919",
+  "periods": [
+    "allemagne"
+  ],
+  "summary": "Théoricienne marxiste. Elle fonde la Ligue spartakiste et le Parti communiste d'Allemagne.",
+  "actions": [
+    {
+      "date": "1916",
+      "theme": "organiser",
+      "text": "Contre la guerre, elle fonde la Ligue spartakiste avec Karl Liebknecht."
+    },
+    {
+      "date": "1919-01-01",
+      "theme": "organiser",
+      "text": "La Ligue spartakiste devient le Parti communiste d'Allemagne."
+    },
+    {
+      "date": "1919-01-15",
+      "theme": "repression",
+      "text": "Pendant l'insurrection spartakiste, elle est assassinée à Berlin par des officiers des corps francs."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Spartacist Revolt (Britannica)",
+      "url": "https://www.britannica.com/event/Spartacist-Revolt"
+    },
+    {
+      "title": "Spartacus League (Britannica)",
+      "url": "https://www.britannica.com/topic/Spartacus-League"
+    }
+  ]
+}

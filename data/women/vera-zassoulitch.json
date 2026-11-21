@@ -1,0 +1,32 @@
+{
+  "name": "Vera Zassoulitch",
+  "birth": "1849",
+  "death": "1919",
+  "periods": [
+    "russie"
+  ],
+  "summary": "Révolutionnaire russe. Son procès retentissant ouvre une période de lutte armée contre le tsarisme.",
+  "actions": [
+    {
+      "date": "1878",
+      "theme": "armes",
+      "text": "Elle tire sur le général Trepov, gouverneur de Saint-Pétersbourg, qui avait fait fouetter un prisonnier."
+    },
+    {
+      "date": "1878",
+      "theme": "droits",
+      "text": "Un jury l'acquitte, à la stupeur du pouvoir."
+    },
+    {
+      "date": "1883",
+      "theme": "organiser",
+      "text": "Elle cofonde le groupe Libération du travail, première organisation marxiste russe."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vera Ivanovna Zasulich (Britannica)",
+      "url": "https://www.britannica.com/biography/Vera-Ivanovna-Zasulich"
+    }
+  ]
+}
